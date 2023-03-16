@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio website made using HTML, CSS and javascript"
+    />
+
+    <title>Portfolio website</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/site.webmanifest" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="box">
+      <h2>Kasper Bankler</h2>
+      <ul class="About-list">
+        <li>Student at H.C. Ørsted Gymnasiet</li>
+        <li>Hard-working</li>
+        <li>Fast learner</li>
+        <li>Likes sports</li>
+      </ul>
+      <button type="button" class="closeButton">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <section class="hero">
+      <div class="main-width">
+        <header>
+          <div class="logo">
+            <i class="fa-solid fa-k"></i>
+          </div>
+          <nav>
+            <div class="hamb">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="nav-list">
+              <li><a href="#">Home</a></li>
+              <li>
+                <a
+                  href="https://github.com/Kasper-Bankler?tab=repositories"
+                  target="_blank"
+                  >Projects</a
+                >
+              </li>
+              <li><a class="aboutButton" href="#">About Me</a></li>
+              <li class="btn">
+                <a href="mailto:Kasperbankler@gmail.com">Contact Me</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="container">
+          <div class="hero-text">
+            <h3>Hi, There!</h3>
+            <h1>I Am <span class="input"></span></h1>
+            <p>Feel free to contact me</p>
+            <div class="social">
+              <a href="https://www.facebook.com/kasper.bankler/" target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="mailto:Kasperbankler@gmail.com"
+                ><i class="fa-regular fa-envelope"></i
+              ></a>
+              <a
+                href="https://github.com/Kasper-Bankler?tab=repositories"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/kasper-bankler-186b90268/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <button type="button" class="btn2">More About Me</button>
+          </div>
+
+          <div class="bottom">
+            <p>© 2023 Kasper Bankler - All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".input", {
+        strings: [
+          "Kasper Bankler.",
+          "Web Developer.",
+          "Software Developer.",
+          "Software Engineer.",
+        ],
+        typeSpeed: 70,
+        backSpeed: 60,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
